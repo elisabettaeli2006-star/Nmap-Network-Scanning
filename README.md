@@ -32,7 +32,7 @@ The scan successfully bypassed the network defenses and identified **3 open port
 * **Port 445/tcp (microsoft-ds):** Server Message Block (SMB). This is a critical port often targeted by attackers for exploitation (e.g., EternalBlue/WannaCry) to gain unauthorized access or execute remote code.
 
 > **Proof of Execution:**
-![Nmap Scan Results](./Pictures/Screenshots/nmaptest)
+![Nmap Scan Results](./Pictures/Screenshots/nmaptest.png)
 
 ## 💡 Conclusion
 This lab demonstrates the fundamental process of network discovery. Identifying exposed services like SMB (Port 445) provides the necessary blueprint for the next phases of a penetration test, such as vulnerability analysis and exploitation.
